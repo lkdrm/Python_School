@@ -17,4 +17,5 @@ span{
     padding: 20px;
     border: 1px dashed red;
     margin: 20px;
+    display: inline-block;
 }
