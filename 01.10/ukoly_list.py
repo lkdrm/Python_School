@@ -22,15 +22,18 @@ min_l(b)
 #3 third task:
 a = [1,2,3,4,5,6,7,8,9,10]   
 
-#Zjistuje jestli je prvocislo
-def prime(a):
-    for i in range(2,a):
-        if a%i == 0:
-            return False
-    return True
+def prime(b):
+        for i in range(2,b):
+            if b%i == 0:
+                return False
+        return True
 
-prime(a)
+def prime_list(ln):
+    new_prime = []
+    for number in ln:
+        if prime(number):
+            new_prime.append(number)
+    return new_prime
 
-def prime_list():
-   #посилаю до прайм и сюда повертае
-prime(a)
+
+print(prime_list(a))
