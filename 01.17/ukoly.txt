@@ -1,0 +1,45 @@
+1.) Vytvořte slovník, který vypadá jako menu restaurace
+
+klíče jsou jména jídel (zvolte jednoduchá, např. jednoslovná jídla)
+hodnoty jsou ceny (pouze číslo bez měny)
+
+a) vytvořte ho rovnou s několika jídly
+b) pak do něj dalšími příkazy několik jídel přidejte
+c) zkuste nějaké jídlo z menu vymazat
+d) změnte u nějakého jídla cenu
+
+2.) Napište funkci, která vypíše všechna jídla
+
+3.) Napište funkci, která vypíše celé menu - tj. jídla i s cenami
+
+4.) Napište funkci, která si vezme od hosta objednávku a 
+připraví mu účet
+Host bude postupně zadávat jídla, která si chce dát (pomocí inputu).
+Pokud jídlo máme v menu, tak se vypíše potvrzení a cena (host
+si samozřejmě může objednat stejné jídlo vícekrát)
+Pokud jídlo nemáme, tak se vypíše "omlouváme se zrovna došlo" nebo
+"takovou blbost jsme nikdy neměli" (záleží na vás jak hodní chcete
+být na hosty)
+Pokud host zadá prázdný řetězec, znamená to, že skončil s objednáváním
+a vypíše se celková cena.
+
+5.) Vytvořte slovník, kde klíče jsou uživatelská jména a hodnoty jsou
+hesla. Zeptejte se uživatele na jméno a heslo a sdělte mu,
+jestli se úspěšně přihlásil.
+(POZOR - v praxi nikdy neukládejte hesla tímto způsobem, toto je jen 
+cvičení. Hesla musí být skrytá, zakódovaná.)
+
+6.) Definujte slovník, kde klíče jsou data v příštím týdnu (vyjádřená 
+stringem nebo ještě lépe jen jedním číslem) a hodnoty jsou 
+teploty v dané dny.
+Těžší verze: Hodnoty jsou další slovníky, kde je uložena 
+nejen teplota, ale i slovní popis počasí a rosný bod. (Nápověda:
+vzpomeňte si na Tři mušketýry.)
+Po zadání data program vypíše, jak bude, případně jak bude den potom 
+a dva dny potom.
+
+Super těžké - pro procvičení všeho možného včetně googlení:
+7.) Nadefinujte slovník, kde klíče jsou jména lidí od vás z rodiny a 
+hodnoty data jejich narození (vygooglete si, jak Python definuje datum).
+Nechte uživatele zadat jméno někoho z rodiny, a vypočítejte, jak je starý.
+
