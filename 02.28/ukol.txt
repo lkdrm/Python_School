@@ -1,0 +1,7 @@
+1. Vytvorit tridu slon
+2. Slon ma nekolik atribut: jmeno, barvu, vaha a povolani
+3. Slon umi dve cinnosti : troubit a strikat vodu na kolemjdouci lidi
+
+Vytvortre jednu instanci slona a ulozte ho do promene.
+
+Vypiste jeho jmeno a pak ho prejmenujte a vypiste nove jmeno

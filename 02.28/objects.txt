@@ -1,0 +1,21 @@
+OOP
+
+class, instance (object)
+
+trida - vzor, otisk, blueprint(napr. plan pro dum)
+
+instance - konkretni objekt, konkretni dum
+
+methods vs function
+
+Objects - take something from real world
+
+
+promena - name, year, high, sex
+
+function - hello, go_to_work, wake_up
+
+methods = function, which is in object
+
+promena, ktera patri objektu:
+clenska promena, atribut, field
