@@ -14,17 +14,17 @@ pole1.sum()
 pole1.append(5)
 pole1[2:4]
 
-pole1 + 10
+pole1 = pole1 + 10 # to array add to everyone + 10
 
-np.zeros(6)
-np.zeros((6,7))
+li_of_zeros = np.zeros(6) # created a array of 6 zeros
+li_of_zeros__2 = np.zeros((6,7))  # created a chart
 
-np.ones((5,4))
+li_of_ones = np.ones((5,4)) # same as a zeros but with numbers 1
 
-np.full(3,7)
+li_of_numbers = np.full(3,7) # created a list with a [ 7 7 7 ]
 np.empty(3)
 
-np.arange(0,10)
+li_of_range = np.arange(0,10) # created a list of range from 0 to 9
 
 pole2 = np.arange(14)
 pole2.reshape((3,5))
