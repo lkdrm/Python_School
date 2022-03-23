@@ -1,0 +1,22 @@
+{
+    "jmeno": "Petr",
+    "vek": 23,
+    "sporty": [
+        "fotbal",
+        "basketball",
+        "hokej"
+    ],
+    "znamky": [
+        1,
+        1,
+        2,
+        3,
+        5
+    ],
+    "pije-pivo": false,
+    "domaci zvire": {
+        "jmeno": "Chubaka",
+        "rasa": "Mein coon",
+        "povolani": "Mazlit"
+    }
+}
